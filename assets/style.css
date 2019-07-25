@@ -1,0 +1,39 @@
+.menu_search_form .search_input
+{
+	text-align: center;
+	padding-left: 25px;
+}
+
+.menu_search
+{
+}
+.menu_search_form
+{
+	position: relative;
+}
+.menu_search_form > .search_input
+{
+	width: 300px;
+  	border-radius: 20px 20px 20px 20px;
+}
+.menu_search_button
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 0;
+	width: 44px;
+	height: 39px;
+	border: none;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.menu_search_form > .search_input: hover{
+  	border: blue;
+}
